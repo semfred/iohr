@@ -1,0 +1,110 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~animate.css/animate.css';
+@import '~bootstrap/scss/bootstrap';
+@import '~nprogress/nprogress.css';
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+
+* {
+  transition: all 0.5s ease;
+}
+
+.text-white {
+  color: $body-bg;
+}
+
+.row {
+  margin: 20px 0;
+}
+
+.card {
+  border: 0;
+}
+
+.bg-box {
+  height: 20vh;
+}
+
+.content-wrapper {
+  margin-top: -17vh;
+}
+
+.main-red {
+  background-color: $primary_color_red;
+}
+
+.main-gray {
+  background-color: $primary_color_silver;
+}
+
+.text-main-gray {
+  background-color: $primary_color_silver;
+}
+
+.text-main-red {
+  color: $primary_color_red;
+}
+
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+li a.router-link-exact-active.router-link-active {
+  color: #fff !important;
+  font-weight: 700;
+}
+
+#nprogress {
+  .bar {
+    background: $primary_color_red !important;
+  }
+  .spinner {
+    right: initial;
+    left: 50%;
+  }
+  .spinner-icon {
+    border-top-color: $primary_color_red;
+    border-left-color: $primary_color_red;
+  }
+}
+
+.content-wrapper {
+
+}
+
+
+// FULL CALENDAR
+
+.fc-event-container {
+  cursor: pointer;
+}
+
+.fc-scroller.fc-day-grid-container {
+  overflow: hidden !important;
+}
+
+// END FULL CALENDAR
+
+// PROFILE
+
+.profile-section {
+  h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+  }
+  .card-header {
+    text-align: center;
+  }
+
+}
+
+// PROFILE END
